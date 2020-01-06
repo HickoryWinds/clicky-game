@@ -8,7 +8,7 @@
 
 ![picture](/public/assets/images/game-start.png)
 
-#### A player wins when each image has been clicked on once.
+#### A player wins the round when each image has been clicked on once.
 
 ![picture](/public/assets/images/winner.png)
 
@@ -16,7 +16,7 @@
 
 ![picture](/public/assets/images/loser.png)
 
-#### Gameplay can be restarted by clicking on an image. The top score that the player achieves is shown until the page is exited.
+#### After the rounds ends, the Current Score will be reset after 3 seconds. Gameplay can be restarted by clicking on an image. The top score that the player achieves is shown until the page is exited.
 
 ![picture](/public/assets/images/carryon.png)
 

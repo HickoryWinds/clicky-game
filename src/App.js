@@ -58,7 +58,14 @@ class App extends Component {
     // check if object specified by id has already been guessed
     if (guessed === 'true' && this.state.cscore < 11) {
       this.setState({message: 'Game Over'});
-      this.setState({cscore: 0});
+      // reser current score after 3
+      setTimeout(
+        function() {
+            this.setState({cscore: 0});
+        }
+        .bind(this),
+        3000
+    );
       // set all friends object guessed value to false to restart game
       for (var j = 0; j < friends.length; j++) {
         friends[j].guessed = 'false';
@@ -85,7 +92,14 @@ class App extends Component {
     // check for game win
     if (this.state.cscore === 11) {
       this.setState({message: 'You Win!'});
-      this.setState({cscore: 0});
+      // reset current score after three seconds
+      setTimeout(
+        function() {
+            this.setState({cscore: 0});
+        }
+        .bind(this),
+        3000
+      );
       // set all friends object guessed value to false to restart game
       for (var k = 0; k < friends.length; k++) {
         friends[k].guessed = 'false';
