@@ -26,12 +26,12 @@
   },
   {
     "id": 6,
-    "image": "https://static.tvtropes.org/pmwiki/pub/images/crow_2018.png",
+    "image": "./assets/images/Crow.png",
     "guessed": "false"
   },
   {
     "id": 7,
-    "image": "https://static.tvtropes.org/pmwiki/pub/images/13860358235050_3319.jpg",
+    "image": "./assets/images/Frylock.png",
     "guessed": "false"
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "id": 9,
-    "image": "https://static.tvtropes.org/pmwiki/pub/images/p185307_n514094_cc_v3_aa_6423.jpg",
+    "image": "./assets/images/MasterShake.png",
     "guessed": "false"
   },
   {
